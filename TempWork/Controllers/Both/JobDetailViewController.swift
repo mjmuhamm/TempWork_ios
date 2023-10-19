@@ -175,7 +175,7 @@ class JobDetailViewController: UIViewController {
         
         secondTotalPay.isHidden = true
         secondTotalPayLabel.isHidden = true
-//        viewHeightConstraint.constant = 900
+        viewHeightConstraint.constant = 900
 //        viewHeightConstraint.constant = 793
         
         

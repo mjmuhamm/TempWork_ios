@@ -76,8 +76,13 @@ class UserMeViewController: UIViewController {
     private var recentJobs : [JobBoard] = []
     private var toggle = "profile"
     
+    
+    @IBOutlet var notificationsButton: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.title = "@mjmuhamm93"
         
         nextJobView.isHidden = false
         bankingView.isHidden = true
@@ -196,27 +201,21 @@ class UserMeViewController: UIViewController {
         bankingButton.setTitleColor(UIColor.white, for: .normal)
     }
     
-    @IBAction func recentJobButtonPressed(_ sender: Any) {
-        toggle = "recentJob"
-        
-        nextJobView.isHidden = true
-        bankingView.isHidden = true
-        recentJobTableView.isHidden = false
-        
-        profileButton.setBackgroundColor(UIColor.white)
-        profileButton.setTitleColor(UIColor(red: 98/255, green: 99/255, blue: 72/255, alpha: 1), for: .normal)
-        nextJobButton.setBackgroundColor(UIColor.white)
-        nextJobButton.setTitleColor(UIColor(red: 98/255, green: 99/255, blue: 72/255, alpha: 1), for: .normal)
-        bankingButton.setBackgroundColor(UIColor.white)
-        bankingButton.setTitleColor(UIColor(red: 98/255, green: 99/255, blue: 72/255, alpha: 1), for: .normal)
-        
-    }
     
     @IBAction func viewDetailButtonPressed(_ sender: Any) {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "JobDetail") as! JobDetailViewController
         vc.origin = "me"
         vc.userOrCompany = "user"
         self.present(vc, animated: true, completion: nil)
+    }
+    
+    
+    @IBAction func settingsButtonPressed(_ sender: Any) {
+        
+    }
+    
+    
+    @IBAction func notificationsButtonPressed(_ sender: Any) {
     }
     
     

@@ -152,8 +152,7 @@ class CompanyMeViewController: UIViewController {
         jobsTableView.isHidden = true
         bankingView.isHidden = true
         
-        addButton.setImage(UIImage(systemName: "pencil.circle.fill"), for: .normal)
-        
+        addButton.isHidden = true
         
         profileButton.setBackgroundColor(UIColor(red: 160/255, green: 162/255, blue: 104/255, alpha: 1))
         profileButton.setTitleColor(UIColor.white, for: .normal)
@@ -174,8 +173,9 @@ class CompanyMeViewController: UIViewController {
         bankingView.isHidden = true
         
         jobConstraint.constant = 221
+//        addButton.setImage(UIImage(systemName: "plus.app.fill"), for: .normal)
+        addButton.isHidden = false
         
-        addButton.setImage(UIImage(systemName: "plus.app.fill"), for: .normal)
         
         jobToggle(job: "yes")
         
@@ -196,7 +196,7 @@ class CompanyMeViewController: UIViewController {
         currentJobsView.isHidden = true
         jobsTableView.isHidden = true
         bankingView.isHidden = false
-        addButton.setImage(UIImage(systemName: "pencil.circle.fill"), for: .normal)
+        addButton.isHidden = true
         
         
         
@@ -210,25 +210,6 @@ class CompanyMeViewController: UIViewController {
         
     }
     
-    @IBAction func recentJobButtonPressed(_ sender: Any) {
-        
-        toggle = "recent"
-        profileView.isHidden = true
-        currentJobsView.isHidden = true
-        jobsTableView.isHidden = false
-        bankingView.isHidden = true
-        jobConstraint.constant = 3
-        addButton.setImage(UIImage(systemName: "plus.app.fill"), for: .normal)
-        
-        
-        profileButton.setBackgroundColor(UIColor.white)
-        profileButton.setTitleColor(UIColor(red: 98/255, green: 99/255, blue: 72/255, alpha: 1), for: .normal)
-        currentJobsButton.setBackgroundColor(UIColor.white)
-        currentJobsButton.setTitleColor(UIColor(red: 98/255, green: 99/255, blue: 72/255, alpha: 1), for: .normal)
-        bankingButton.setBackgroundColor(UIColor.white)
-        bankingButton.setTitleColor(UIColor(red: 98/255, green: 99/255, blue: 72/255, alpha: 1), for: .normal)
-        
-    }
     
     @IBAction func viewDetailButtonPressed(_ sender: Any) {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "JobDetail") as! JobDetailViewController

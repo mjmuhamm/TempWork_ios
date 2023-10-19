@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C009D30842CA74423B8B9FED /* Pods_TempWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402812A89CB0881D03CA2C95 /* Pods_TempWork.framework */; };
+		F44C26F62AE1C9DE00B25BC9 /* UserAccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C26F52AE1C9DE00B25BC9 /* UserAccountSettingsViewController.swift */; };
+		F44C26F82AE1C9EA00B25BC9 /* UserPersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C26F72AE1C9EA00B25BC9 /* UserPersonalViewController.swift */; };
+		F44C26FA2AE1C9F700B25BC9 /* UserBankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C26F92AE1C9F700B25BC9 /* UserBankingViewController.swift */; };
+		F44C26FD2AE1CA2F00B25BC9 /* CompanySettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C26FC2AE1CA2F00B25BC9 /* CompanySettingsViewController.swift */; };
+		F44C26FF2AE1CA3B00B25BC9 /* CompanyPersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C26FE2AE1CA3B00B25BC9 /* CompanyPersonalViewController.swift */; };
+		F44C27012AE1CA4800B25BC9 /* CompanyBankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C27002AE1CA4800B25BC9 /* CompanyBankingViewController.swift */; };
+		F44C27042AE1CA5700B25BC9 /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C27032AE1CA5700B25BC9 /* TermsOfServiceViewController.swift */; };
+		F44C27062AE1CA6800B25BC9 /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C27052AE1CA6800B25BC9 /* PrivacyPolicyViewController.swift */; };
+		F44C27082AE1CA7C00B25BC9 /* ReportAnIssueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C27072AE1CA7C00B25BC9 /* ReportAnIssueViewController.swift */; };
 		F461ED4B2ADDB489009FC287 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461ED4A2ADDB489009FC287 /* UserLoginViewController.swift */; };
 		F461ED4D2ADDB4F5009FC287 /* CompanyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461ED4C2ADDB4F5009FC287 /* CompanyLoginViewController.swift */; };
 		F463D3F12ADEECA500E12756 /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463D3F02ADEECA500E12756 /* JobDetailViewController.swift */; };
@@ -56,6 +65,15 @@
 		22B8B95BAE99EDC0B12EFD8A /* Pods-TempWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempWork.release.xcconfig"; path = "Target Support Files/Pods-TempWork/Pods-TempWork.release.xcconfig"; sourceTree = "<group>"; };
 		402812A89CB0881D03CA2C95 /* Pods_TempWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		840819B9C9F40DCD88407A6B /* Pods-TempWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempWork.debug.xcconfig"; path = "Target Support Files/Pods-TempWork/Pods-TempWork.debug.xcconfig"; sourceTree = "<group>"; };
+		F44C26F52AE1C9DE00B25BC9 /* UserAccountSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSettingsViewController.swift; sourceTree = "<group>"; };
+		F44C26F72AE1C9EA00B25BC9 /* UserPersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPersonalViewController.swift; sourceTree = "<group>"; };
+		F44C26F92AE1C9F700B25BC9 /* UserBankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBankingViewController.swift; sourceTree = "<group>"; };
+		F44C26FC2AE1CA2F00B25BC9 /* CompanySettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySettingsViewController.swift; sourceTree = "<group>"; };
+		F44C26FE2AE1CA3B00B25BC9 /* CompanyPersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyPersonalViewController.swift; sourceTree = "<group>"; };
+		F44C27002AE1CA4800B25BC9 /* CompanyBankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyBankingViewController.swift; sourceTree = "<group>"; };
+		F44C27032AE1CA5700B25BC9 /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
+		F44C27052AE1CA6800B25BC9 /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		F44C27072AE1CA7C00B25BC9 /* ReportAnIssueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportAnIssueViewController.swift; sourceTree = "<group>"; };
 		F461ED4A2ADDB489009FC287 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
 		F461ED4C2ADDB4F5009FC287 /* CompanyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyLoginViewController.swift; sourceTree = "<group>"; };
 		F463D3F02ADEECA500E12756 /* JobDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
@@ -137,11 +155,42 @@
 			path = Misc;
 			sourceTree = "<group>";
 		};
+		F44C26F42AE1C9CF00B25BC9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F44C26F52AE1C9DE00B25BC9 /* UserAccountSettingsViewController.swift */,
+				F44C26F72AE1C9EA00B25BC9 /* UserPersonalViewController.swift */,
+				F44C26F92AE1C9F700B25BC9 /* UserBankingViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F44C26FB2AE1CA1C00B25BC9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F44C26FC2AE1CA2F00B25BC9 /* CompanySettingsViewController.swift */,
+				F44C26FE2AE1CA3B00B25BC9 /* CompanyPersonalViewController.swift */,
+				F44C27002AE1CA4800B25BC9 /* CompanyBankingViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F44C27022AE1CA4C00B25BC9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F44C27032AE1CA5700B25BC9 /* TermsOfServiceViewController.swift */,
+				F44C27052AE1CA6800B25BC9 /* PrivacyPolicyViewController.swift */,
+				F44C27072AE1CA7C00B25BC9 /* ReportAnIssueViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		F461ED452ADDB458009FC287 /* Users */ = {
 			isa = PBXGroup;
 			children = (
 				F461ED472ADDB465009FC287 /* Login */,
 				F461ED482ADDB470009FC287 /* Tabs */,
+				F44C26F42AE1C9CF00B25BC9 /* Settings */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -152,6 +201,7 @@
 				F44C26F12AE18C4A00B25BC9 /* Misc */,
 				F461ED492ADDB47C009FC287 /* Login */,
 				F4EE6FBC2ADDD17E009024C0 /* Tabs */,
+				F44C26FB2AE1CA1C00B25BC9 /* Settings */,
 			);
 			path = Companies;
 			sourceTree = "<group>";
@@ -185,6 +235,7 @@
 		F463D3EF2ADEEC9500E12756 /* Both */ = {
 			isa = PBXGroup;
 			children = (
+				F44C27022AE1CA4C00B25BC9 /* Settings */,
 				F463D3F02ADEECA500E12756 /* JobDetailViewController.swift */,
 			);
 			path = Both;
@@ -256,10 +307,10 @@
 		F4B8A3E82ADC7DB500844F71 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F463D3EF2ADEEC9500E12756 /* Both */,
-				F461ED462ADDB45E009FC287 /* Companies */,
-				F461ED452ADDB458009FC287 /* Users */,
 				F4B8A3EB2ADC806500844F71 /* Start */,
+				F461ED452ADDB458009FC287 /* Users */,
+				F461ED462ADDB45E009FC287 /* Companies */,
+				F463D3EF2ADEEC9500E12756 /* Both */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -522,19 +573,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4EE6FD82ADDD239009024C0 /* CompanyBidBoardTableViewCell.swift in Sources */,
+				F44C27082AE1CA7C00B25BC9 /* ReportAnIssueViewController.swift in Sources */,
 				F4EE6FCB2ADDD1EA009024C0 /* JobBoardTableViewCell.swift in Sources */,
 				F4EE6FC22ADDD1A3009024C0 /* CompanyMeViewController.swift in Sources */,
+				F44C27062AE1CA6800B25BC9 /* PrivacyPolicyViewController.swift in Sources */,
 				F4EE6FC62ADDD1BC009024C0 /* UserBidsViewController.swift in Sources */,
+				F44C26F82AE1C9EA00B25BC9 /* UserPersonalViewController.swift in Sources */,
 				F4EE6FCF2ADDD1F4009024C0 /* BidBoardTableViewCell.swift in Sources */,
 				F463D3F12ADEECA500E12756 /* JobDetailViewController.swift in Sources */,
+				F44C26F62AE1C9DE00B25BC9 /* UserAccountSettingsViewController.swift in Sources */,
 				F461ED4B2ADDB489009FC287 /* UserLoginViewController.swift in Sources */,
+				F44C26FD2AE1CA2F00B25BC9 /* CompanySettingsViewController.swift in Sources */,
+				F44C26FF2AE1CA3B00B25BC9 /* CompanyPersonalViewController.swift in Sources */,
 				F4EE6FBE2ADDD18C009024C0 /* DashboardViewController.swift in Sources */,
 				F4B8A3BB2ADC3C1000844F71 /* StartController.swift in Sources */,
 				F4B8A3B72ADC3C1000844F71 /* AppDelegate.swift in Sources */,
 				F4B8A3B92ADC3C1000844F71 /* SceneDelegate.swift in Sources */,
+				F44C27042AE1CA5700B25BC9 /* TermsOfServiceViewController.swift in Sources */,
 				F4EE6FC42ADDD1B2009024C0 /* JobBoardViewController.swift in Sources */,
 				F4EE6FC82ADDD1D1009024C0 /* UserMeViewController.swift in Sources */,
+				F44C27012AE1CA4800B25BC9 /* CompanyBankingViewController.swift in Sources */,
 				F461ED4D2ADDB4F5009FC287 /* CompanyLoginViewController.swift in Sources */,
+				F44C26FA2AE1C9F700B25BC9 /* UserBankingViewController.swift in Sources */,
 				F4EE6FC02ADDD198009024C0 /* CompanyBidsViewController.swift in Sources */,
 				F4F95C802ADDF8F5003CEA81 /* JobBoard.swift in Sources */,
 			);
