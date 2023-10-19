@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C009D30842CA74423B8B9FED /* Pods_TempWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402812A89CB0881D03CA2C95 /* Pods_TempWork.framework */; };
+		F461ED4B2ADDB489009FC287 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461ED4A2ADDB489009FC287 /* UserLoginViewController.swift */; };
+		F461ED4D2ADDB4F5009FC287 /* CompanyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461ED4C2ADDB4F5009FC287 /* CompanyLoginViewController.swift */; };
+		F463D3F12ADEECA500E12756 /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463D3F02ADEECA500E12756 /* JobDetailViewController.swift */; };
 		F4B8A3B72ADC3C1000844F71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8A3B62ADC3C1000844F71 /* AppDelegate.swift */; };
 		F4B8A3B92ADC3C1000844F71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8A3B82ADC3C1000844F71 /* SceneDelegate.swift */; };
-		F4B8A3BB2ADC3C1000844F71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8A3BA2ADC3C1000844F71 /* ViewController.swift */; };
+		F4B8A3BB2ADC3C1000844F71 /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8A3BA2ADC3C1000844F71 /* StartController.swift */; };
 		F4B8A3BE2ADC3C1000844F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B8A3BC2ADC3C1000844F71 /* Main.storyboard */; };
 		F4B8A3C02ADC3C1200844F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B8A3BF2ADC3C1200844F71 /* Assets.xcassets */; };
 		F4B8A3C32ADC3C1200844F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B8A3C12ADC3C1200844F71 /* LaunchScreen.storyboard */; };
 		F4B8A3CE2ADC3C1200844F71 /* TempWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8A3CD2ADC3C1200844F71 /* TempWorkTests.swift */; };
 		F4B8A3D82ADC3C1200844F71 /* TempWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8A3D72ADC3C1200844F71 /* TempWorkUITests.swift */; };
 		F4B8A3DA2ADC3C1200844F71 /* TempWorkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8A3D92ADC3C1200844F71 /* TempWorkUITestsLaunchTests.swift */; };
+		F4EE6FBE2ADDD18C009024C0 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE6FBD2ADDD18C009024C0 /* DashboardViewController.swift */; };
+		F4EE6FC02ADDD198009024C0 /* CompanyBidsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE6FBF2ADDD198009024C0 /* CompanyBidsViewController.swift */; };
+		F4EE6FC22ADDD1A3009024C0 /* CompanyMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE6FC12ADDD1A3009024C0 /* CompanyMeViewController.swift */; };
+		F4EE6FC42ADDD1B2009024C0 /* JobBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE6FC32ADDD1B2009024C0 /* JobBoardViewController.swift */; };
+		F4EE6FC62ADDD1BC009024C0 /* UserBidsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE6FC52ADDD1BC009024C0 /* UserBidsViewController.swift */; };
+		F4EE6FC82ADDD1D1009024C0 /* UserMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE6FC72ADDD1D1009024C0 /* UserMeViewController.swift */; };
+		F4EE6FCB2ADDD1EA009024C0 /* JobBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE6FC92ADDD1EA009024C0 /* JobBoardTableViewCell.swift */; };
+		F4EE6FCC2ADDD1EA009024C0 /* JobBoardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4EE6FCA2ADDD1EA009024C0 /* JobBoardTableViewCell.xib */; };
+		F4EE6FCF2ADDD1F4009024C0 /* BidBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE6FCD2ADDD1F4009024C0 /* BidBoardTableViewCell.swift */; };
+		F4EE6FD02ADDD1F4009024C0 /* BidBoardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4EE6FCE2ADDD1F4009024C0 /* BidBoardTableViewCell.xib */; };
+		F4EE6FD82ADDD239009024C0 /* CompanyBidBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE6FD62ADDD239009024C0 /* CompanyBidBoardTableViewCell.swift */; };
+		F4EE6FD92ADDD239009024C0 /* CompanyBidBoardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4EE6FD72ADDD239009024C0 /* CompanyBidBoardTableViewCell.xib */; };
+		F4F95C802ADDF8F5003CEA81 /* JobBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F95C7F2ADDF8F5003CEA81 /* JobBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +53,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22B8B95BAE99EDC0B12EFD8A /* Pods-TempWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempWork.release.xcconfig"; path = "Target Support Files/Pods-TempWork/Pods-TempWork.release.xcconfig"; sourceTree = "<group>"; };
+		402812A89CB0881D03CA2C95 /* Pods_TempWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840819B9C9F40DCD88407A6B /* Pods-TempWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempWork.debug.xcconfig"; path = "Target Support Files/Pods-TempWork/Pods-TempWork.debug.xcconfig"; sourceTree = "<group>"; };
+		F461ED4A2ADDB489009FC287 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		F461ED4C2ADDB4F5009FC287 /* CompanyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyLoginViewController.swift; sourceTree = "<group>"; };
+		F463D3F02ADEECA500E12756 /* JobDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
 		F4B8A3B32ADC3C1000844F71 /* TempWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B8A3B62ADC3C1000844F71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4B8A3B82ADC3C1000844F71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4B8A3BA2ADC3C1000844F71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4B8A3BA2ADC3C1000844F71 /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
 		F4B8A3BD2ADC3C1000844F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4B8A3BF2ADC3C1200844F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4B8A3C22ADC3C1200844F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +72,19 @@
 		F4B8A3D32ADC3C1200844F71 /* TempWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B8A3D72ADC3C1200844F71 /* TempWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempWorkUITests.swift; sourceTree = "<group>"; };
 		F4B8A3D92ADC3C1200844F71 /* TempWorkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempWorkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4EE6FBD2ADDD18C009024C0 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		F4EE6FBF2ADDD198009024C0 /* CompanyBidsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyBidsViewController.swift; sourceTree = "<group>"; };
+		F4EE6FC12ADDD1A3009024C0 /* CompanyMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyMeViewController.swift; sourceTree = "<group>"; };
+		F4EE6FC32ADDD1B2009024C0 /* JobBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobBoardViewController.swift; sourceTree = "<group>"; };
+		F4EE6FC52ADDD1BC009024C0 /* UserBidsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBidsViewController.swift; sourceTree = "<group>"; };
+		F4EE6FC72ADDD1D1009024C0 /* UserMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMeViewController.swift; sourceTree = "<group>"; };
+		F4EE6FC92ADDD1EA009024C0 /* JobBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobBoardTableViewCell.swift; sourceTree = "<group>"; };
+		F4EE6FCA2ADDD1EA009024C0 /* JobBoardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobBoardTableViewCell.xib; sourceTree = "<group>"; };
+		F4EE6FCD2ADDD1F4009024C0 /* BidBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidBoardTableViewCell.swift; sourceTree = "<group>"; };
+		F4EE6FCE2ADDD1F4009024C0 /* BidBoardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BidBoardTableViewCell.xib; sourceTree = "<group>"; };
+		F4EE6FD62ADDD239009024C0 /* CompanyBidBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyBidBoardTableViewCell.swift; sourceTree = "<group>"; };
+		F4EE6FD72ADDD239009024C0 /* CompanyBidBoardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyBidBoardTableViewCell.xib; sourceTree = "<group>"; };
+		F4F95C7F2ADDF8F5003CEA81 /* JobBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C009D30842CA74423B8B9FED /* Pods_TempWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +113,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312B9FAD9F486E738F26995A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				840819B9C9F40DCD88407A6B /* Pods-TempWork.debug.xcconfig */,
+				22B8B95BAE99EDC0B12EFD8A /* Pods-TempWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		629967457AEC6094E0D2C9F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				402812A89CB0881D03CA2C95 /* Pods_TempWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F44C26F12AE18C4A00B25BC9 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		F461ED452ADDB458009FC287 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				F461ED472ADDB465009FC287 /* Login */,
+				F461ED482ADDB470009FC287 /* Tabs */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		F461ED462ADDB45E009FC287 /* Companies */ = {
+			isa = PBXGroup;
+			children = (
+				F44C26F12AE18C4A00B25BC9 /* Misc */,
+				F461ED492ADDB47C009FC287 /* Login */,
+				F4EE6FBC2ADDD17E009024C0 /* Tabs */,
+			);
+			path = Companies;
+			sourceTree = "<group>";
+		};
+		F461ED472ADDB465009FC287 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F461ED4A2ADDB489009FC287 /* UserLoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F461ED482ADDB470009FC287 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE6FC32ADDD1B2009024C0 /* JobBoardViewController.swift */,
+				F4EE6FC52ADDD1BC009024C0 /* UserBidsViewController.swift */,
+				F4EE6FC72ADDD1D1009024C0 /* UserMeViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		F461ED492ADDB47C009FC287 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F461ED4C2ADDB4F5009FC287 /* CompanyLoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F463D3EF2ADEEC9500E12756 /* Both */ = {
+			isa = PBXGroup;
+			children = (
+				F463D3F02ADEECA500E12756 /* JobDetailViewController.swift */,
+			);
+			path = Both;
+			sourceTree = "<group>";
+		};
 		F4B8A3AA2ADC3C1000844F71 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +197,8 @@
 				F4B8A3CC2ADC3C1200844F71 /* TempWorkTests */,
 				F4B8A3D62ADC3C1200844F71 /* TempWorkUITests */,
 				F4B8A3B42ADC3C1000844F71 /* Products */,
+				312B9FAD9F486E738F26995A /* Pods */,
+				629967457AEC6094E0D2C9F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +215,12 @@
 		F4B8A3B52ADC3C1000844F71 /* TempWork */ = {
 			isa = PBXGroup;
 			children = (
-				F4B8A3B62ADC3C1000844F71 /* AppDelegate.swift */,
-				F4B8A3B82ADC3C1000844F71 /* SceneDelegate.swift */,
-				F4B8A3BA2ADC3C1000844F71 /* ViewController.swift */,
 				F4B8A3BC2ADC3C1000844F71 /* Main.storyboard */,
-				F4B8A3BF2ADC3C1200844F71 /* Assets.xcassets */,
-				F4B8A3C12ADC3C1200844F71 /* LaunchScreen.storyboard */,
 				F4B8A3C42ADC3C1200844F71 /* Info.plist */,
+				F4B8A3E62ADC7D9E00844F71 /* Resources */,
+				F4B8A3E92ADC7DBB00844F71 /* Cells */,
+				F4B8A3E82ADC7DB500844F71 /* Controllers */,
+				F4B8A3EA2ADC7DC200844F71 /* Models */,
 			);
 			path = TempWork;
 			sourceTree = "<group>";
@@ -127,6 +242,107 @@
 			path = TempWorkUITests;
 			sourceTree = "<group>";
 		};
+		F4B8A3E62ADC7D9E00844F71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4B8A3BF2ADC3C1200844F71 /* Assets.xcassets */,
+				F4B8A3B62ADC3C1000844F71 /* AppDelegate.swift */,
+				F4B8A3B82ADC3C1000844F71 /* SceneDelegate.swift */,
+				F4B8A3C12ADC3C1200844F71 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F4B8A3E82ADC7DB500844F71 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F463D3EF2ADEEC9500E12756 /* Both */,
+				F461ED462ADDB45E009FC287 /* Companies */,
+				F461ED452ADDB458009FC287 /* Users */,
+				F4B8A3EB2ADC806500844F71 /* Start */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F4B8A3E92ADC7DBB00844F71 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE6FD12ADDD1F9009024C0 /* Users */,
+				F4EE6FD42ADDD219009024C0 /* Companies */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F4B8A3EA2ADC7DC200844F71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4F95C7F2ADDF8F5003CEA81 /* JobBoard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4B8A3EB2ADC806500844F71 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				F4B8A3BA2ADC3C1000844F71 /* StartController.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		F4EE6FBC2ADDD17E009024C0 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE6FBD2ADDD18C009024C0 /* DashboardViewController.swift */,
+				F4EE6FBF2ADDD198009024C0 /* CompanyBidsViewController.swift */,
+				F4EE6FC12ADDD1A3009024C0 /* CompanyMeViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		F4EE6FD12ADDD1F9009024C0 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE6FD22ADDD201009024C0 /* Jobs */,
+				F4EE6FD32ADDD20B009024C0 /* Bids */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		F4EE6FD22ADDD201009024C0 /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE6FC92ADDD1EA009024C0 /* JobBoardTableViewCell.swift */,
+				F4EE6FCA2ADDD1EA009024C0 /* JobBoardTableViewCell.xib */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		F4EE6FD32ADDD20B009024C0 /* Bids */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE6FCD2ADDD1F4009024C0 /* BidBoardTableViewCell.swift */,
+				F4EE6FCE2ADDD1F4009024C0 /* BidBoardTableViewCell.xib */,
+			);
+			path = Bids;
+			sourceTree = "<group>";
+		};
+		F4EE6FD42ADDD219009024C0 /* Companies */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE6FD52ADDD225009024C0 /* Bids */,
+			);
+			path = Companies;
+			sourceTree = "<group>";
+		};
+		F4EE6FD52ADDD225009024C0 /* Bids */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE6FD62ADDD239009024C0 /* CompanyBidBoardTableViewCell.swift */,
+				F4EE6FD72ADDD239009024C0 /* CompanyBidBoardTableViewCell.xib */,
+			);
+			path = Bids;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4B8A3DD2ADC3C1200844F71 /* Build configuration list for PBXNativeTarget "TempWork" */;
 			buildPhases = (
+				8CDAC6A99250FF845F11F173 /* [CP] Check Pods Manifest.lock */,
 				F4B8A3AF2ADC3C1000844F71 /* Sources */,
 				F4B8A3B02ADC3C1000844F71 /* Frameworks */,
 				F4B8A3B12ADC3C1000844F71 /* Resources */,
+				2EFB6A1918B7BE3E3A768933 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +449,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EE6FD92ADDD239009024C0 /* CompanyBidBoardTableViewCell.xib in Resources */,
+				F4EE6FD02ADDD1F4009024C0 /* BidBoardTableViewCell.xib in Resources */,
+				F4EE6FCC2ADDD1EA009024C0 /* JobBoardTableViewCell.xib in Resources */,
 				F4B8A3C32ADC3C1200844F71 /* LaunchScreen.storyboard in Resources */,
 				F4B8A3C02ADC3C1200844F71 /* Assets.xcassets in Resources */,
 				F4B8A3BE2ADC3C1000844F71 /* Main.storyboard in Resources */,
@@ -253,14 +474,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EFB6A1918B7BE3E3A768933 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TempWork/Pods-TempWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TempWork/Pods-TempWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TempWork/Pods-TempWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CDAC6A99250FF845F11F173 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4B8A3AF2ADC3C1000844F71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B8A3BB2ADC3C1000844F71 /* ViewController.swift in Sources */,
+				F4EE6FD82ADDD239009024C0 /* CompanyBidBoardTableViewCell.swift in Sources */,
+				F4EE6FCB2ADDD1EA009024C0 /* JobBoardTableViewCell.swift in Sources */,
+				F4EE6FC22ADDD1A3009024C0 /* CompanyMeViewController.swift in Sources */,
+				F4EE6FC62ADDD1BC009024C0 /* UserBidsViewController.swift in Sources */,
+				F4EE6FCF2ADDD1F4009024C0 /* BidBoardTableViewCell.swift in Sources */,
+				F463D3F12ADEECA500E12756 /* JobDetailViewController.swift in Sources */,
+				F461ED4B2ADDB489009FC287 /* UserLoginViewController.swift in Sources */,
+				F4EE6FBE2ADDD18C009024C0 /* DashboardViewController.swift in Sources */,
+				F4B8A3BB2ADC3C1000844F71 /* StartController.swift in Sources */,
 				F4B8A3B72ADC3C1000844F71 /* AppDelegate.swift in Sources */,
 				F4B8A3B92ADC3C1000844F71 /* SceneDelegate.swift in Sources */,
+				F4EE6FC42ADDD1B2009024C0 /* JobBoardViewController.swift in Sources */,
+				F4EE6FC82ADDD1D1009024C0 /* UserMeViewController.swift in Sources */,
+				F461ED4D2ADDB4F5009FC287 /* CompanyLoginViewController.swift in Sources */,
+				F4EE6FC02ADDD198009024C0 /* CompanyBidsViewController.swift in Sources */,
+				F4F95C802ADDF8F5003CEA81 /* JobBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +629,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -368,7 +644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -416,7 +692,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -425,7 +701,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,6 +713,7 @@
 		};
 		F4B8A3DE2ADC3C1200844F71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840819B9C9F40DCD88407A6B /* Pods-TempWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +727,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +743,7 @@
 		};
 		F4B8A3DF2ADC3C1200844F71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B8B95BAE99EDC0B12EFD8A /* Pods-TempWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,6 +757,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

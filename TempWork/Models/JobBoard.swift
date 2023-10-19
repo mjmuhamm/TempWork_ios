@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+
+struct JobBoard {
+    
+    let dateOfJob: String
+    let companyName: String
+    let typeOfWork: String
+    let location: String
+    let timeSlot: String
+    let amountPaid: String
+    
+}
